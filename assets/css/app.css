@@ -11,6 +11,11 @@ body{
     font-family: 'Montserrat', sans-serif;
     background-color: black;
 }
+.brand a {
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+}
 div#modal-body h3 {
     font-size: 14px !important;
     font-weight: 300;
@@ -155,20 +160,19 @@ a.btn.inline:hover{
     background-color: black;
     color: white;
 }
-a.btn.primary {
-    border: 1px solid;
+a.btn.primary { 
     width: 200px;
     display: inline-flex;
     height: 45px;
     justify-content: center;
     align-items: center;
     border-radius: 30px;
-    background-image: linear-gradient(to right top, #f5c5ea, #a5e4fd);
+    background-image: linear-gradient(to right top, #E683FC, #55F5FF);
     font-weight: 600 !important;
     text-transform: uppercase;
     font-size: 0.7rem;
-    border: 1px solid white; 
-    box-shadow: 1px 1px 3px #8886b7cf;
+    border: 1px solid #162b52;
+    box-shadow: 1px 1px 3px #3129f5cf;
     opacity: 0.9;
     transition: .3s;
 }
@@ -201,13 +205,14 @@ button{
 }
 .cover h2{
     margin: 5px auto;
+    color: black;
 }
 .btn-sucess {
     border: 1px solid;
     width: 250px;
     display: inline-flex;
     background-color: #32FF90 !important;
-    background-image: linear-gradient(to right top, #ecb6e0, #54ffc6);
+    /* background-image: linear-gradient(to right top, #ecb6e0, #54ffc6); */
     height: 50px;
     justify-content: center;
     align-items: center;
@@ -256,7 +261,7 @@ a.btn.primary:hover {
     
 }
 .display span {
-    font-size: 3rem;
+    font-size: 2.3rem;
     text-align: center;
     display: block;
     text-transform: uppercase;
@@ -358,7 +363,7 @@ a.btn-sucess svg {
 }
 @media(min-width:768px){
     .cover {
-        margin-bottom: 50px;
+        margin-bottom: 30px;
     }
     .social{
         display: flex;
@@ -429,6 +434,16 @@ a.btn-sucess svg {
 }
 
 @media(min-width:1200px){
+    a.btn-down {
+       
+        margin: 10rem auto 0;
+        
+    }
+    .display span {
+        font-size: 3rem;
+      
+    }
+     
     .display .content-text h2 {
         width: 340px;
         margin: 90px auto 0;
@@ -485,8 +500,8 @@ a.btn-sucess svg {
     }
      
     .display span.title {
-        font-size: 5.5rem  ;
-        letter-spacing: 27px;
+        font-size: 5.6rem;
+        letter-spacing: 6px;
         
     text-shadow:-3px 2px 2px #0e424977;
     /* text-shadow: 0px 0px 9px #00dbff9e; */
@@ -499,10 +514,12 @@ a.btn-sucess svg {
         padding: 15% 0 0;
     }
     .display h1 {
-        font-size: 2.3rem;
+        font-size: 1.1rem;
+        width: 600px;
         letter-spacing: 15px;
-    }   
-
+        margin: 0 auto;
+        line-height: 1.5;
+    }
     nav ul{
         display: flex !important;
     }
@@ -516,5 +533,9 @@ a.btn-sucess svg {
     }
     .menu {
         width: 45%;
+        max-width: 410px;
+    }
+    header div {
+        margin: 0 72px;
     }
 }

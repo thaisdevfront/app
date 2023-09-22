@@ -115,7 +115,7 @@ initapp=()=>{
        <div class='tabs-portfolio'>
           <div class="tab">
              <button class="tablinks" onclick="openCity(event, 'apps')">Tecnologia</button>
-             <button class="tablinks" onclick="openCity(event, 'brand')">Brand</button>
+             <button class="tablinks" onclick="openCity(event, 'brand')">Branding</button>
              <button class="tablinks" onclick="openCity(event, 'social')">Social Media</button>
           </div>
           <div id="apps" class="tabcontent">
