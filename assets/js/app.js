@@ -152,6 +152,28 @@ initapp=()=>{
                                <i class="fa-regular fa-heart"></i>
                                </span>
                                <div>
+                                  <h4> Harmony Digital Flow</h4>
+                                  <p>App Institucional com descrição dos serviços prestados.</p>
+                                  <a class='get-site' target='_blank' href='https://intellectx.com.br/'>
+                                  visite este site
+                                  <i class="fa-solid fa-arrow-right"></i>
+                                  </a>
+                               </div>
+                               <span>
+                               <i class="fa-solid fa-chevron-down"></i>
+                               </span>
+                            </div>
+                         </div>
+                         <img class='logo' src='assets/img/harmonyapp.png'>
+                      </div>
+                      
+                      <div class="swiper-slide">
+                         <div class='overlaygallery'>
+                            <div class='text-content'>
+                               <span>
+                               <i class="fa-regular fa-heart"></i>
+                               </span>
+                               <div>
                                   <h4>Web Site Intellectex</h4>
                                   <p>App Institucional com descrição dos serviços prestados.</p>
                                   <a class='get-site' target='_blank' href='https://intellectx.com.br/'>
@@ -356,6 +378,7 @@ initapp=()=>{
                 <!-- Swipesr -->
                 <div class="swiper mySwiper">
                    <div class="swiper-wrapper">
+                      <div class="swiper-slide"><img class='logo' src='assets/img/produtos/socialmedia/media0.png'></div>
                       <div class="swiper-slide"><img class='logo' src='assets/img/produtos/socialmedia/media.png'></div>
                       <div class="swiper-slide"><img class='logo' src='assets/img/produtos/socialmedia/media1.png'></div>
                       <div class="swiper-slide"><img class='logo' src='assets/img/produtos/socialmedia/media2.png'></div>
