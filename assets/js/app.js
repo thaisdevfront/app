@@ -369,6 +369,27 @@ initapp=()=>{
                             </div>
                         <img class='logo' src='assets/img/produtos/brand/brand-reservei.png'>
                      </div>
+                     <div class="swiper-slide">
+                        <div class='overlaygallery'>
+                                <div class='text-content'>
+                                <span>
+                                <i class="fa-regular fa-heart"></i>
+                                </span>
+                                <div>
+                                    <h4>Edmilso Souza</h4>
+                                    <p>Padrões de design de marca para app de reservas.</p>
+                                    <a class='get-site' target='_blank' 
+                                        href='http://sundaystore.infinityfreeapp.com/'>visite este site
+                                    <i class="fa-solid fa-arrow-right"></i>
+                                    </a>
+                                </div>
+                                <span>
+                                <i class="fa-solid fa-chevron-down"></i>
+                                </span>
+                                </div>
+                            </div>
+                        <img class='logo' src='assets/img/produtos/brand/edmilson.png'>
+                     </div>
                  
                   </div>
                   <div class="swiper-pagination"></div>
