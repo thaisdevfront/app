@@ -64,7 +64,10 @@ nav .controls {
         }
         .menu nav ul li a {
             color: white;
-         }
+            text-transform: uppercase;
+            font-size: 0.8rem;
+            opacity: 0.8;
+        }
 }
 
     @media(min-width:1400px){

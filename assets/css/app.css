@@ -78,6 +78,8 @@ header {
     align-items: center;
     margin: 15px auto;
     z-index: 999;
+    border-bottom: 1px solid #1a1a1a;
+
 }
 header div {
     margin: 20px;
@@ -130,12 +132,13 @@ a{
    
 }
 .social a {
-    margin: 8px 5px;
+    margin: 8px 30px;
     display: flex;
-    width: 30px; 
+    width: 30px;
     height: 30px;
     justify-content: center;
     align-items: center;
+    color: white;
 }
 .portfolio {
     background: #e5e5e5;
@@ -160,6 +163,10 @@ a.btn.inline:hover{
     background-color: black;
     color: white;
 }
+a.btn.primary svg { 
+    color: black;
+
+}
 a.btn.primary { 
     width: 200px;
     display: inline-flex;
@@ -175,6 +182,7 @@ a.btn.primary {
     box-shadow: 1px 1px 3px #3129f5cf;
     opacity: 0.9;
     transition: .3s;
+    color: black;
 }
 button{
     cursor: pointer;
@@ -277,7 +285,9 @@ span.title::before {
     background-image: url(../img/lines.png);
     background-repeat: no-repeat;
     position: absolute;
-    left: 50%;
+    right: 10%;
+    left: inherit;
+    margin: -22px;
 }
 .harmonyabout h2 {
     font-size: 3rem;
@@ -362,6 +372,9 @@ a.btn-sucess svg {
     }
 }
 @media(min-width:768px){
+    nav .controls {
+       display: none;
+    }
     .cover {
         margin-bottom: 30px;
     }
@@ -436,7 +449,7 @@ a.btn-sucess svg {
 @media(min-width:1200px){
     a.btn-down {
        
-        margin: 10rem auto 0;
+        margin: 5rem auto 0;
         
     }
     .display span {
@@ -500,11 +513,15 @@ a.btn-sucess svg {
     }
      
     .display span.title {
-        font-size: 5.6rem;
+        font-size: 6.9rem;
         letter-spacing: 6px;
         
-    text-shadow:-3px 2px 2px #0e424977;
-    /* text-shadow: 0px 0px 9px #00dbff9e; */
+    /* text-shadow:-3px 2px 2px #0e424977; */
+    
+  
+	background: linear-gradient(to right, #E683FC 10%, #55F5FF 80%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
     }
     .display a span {
         font-size: 0.9rem ;
@@ -516,9 +533,10 @@ a.btn-sucess svg {
     .display h1 {
         font-size: 1.1rem;
         width: 600px;
-        letter-spacing: 15px;
+        letter-spacing: 8px;
         margin: 0 auto;
         line-height: 1.5;
+
     }
     nav ul{
         display: flex !important;

@@ -19,7 +19,9 @@ relogio=()=>{
 initapp=()=>{
     app.innerHTML=`
         <header  id="top">
-            <div class='brand'><a href='index.html'><img class='logo' src='assets/img/beija.png'></a></div>
+            <div class='brand'><a href='index.html'>
+            Thais Mariano
+            </a></div>
             <div class='menu'>
             <button onclick='menutoggleMenu()' class='btn-menu'>
             <i class="fa-solid fa-bars"></i>
@@ -42,11 +44,11 @@ initapp=()=>{
                             <a href='#about'>Sobre</a>
                         </li>-->
                         <li>
-                            <a href='#contact'>Contato</a>
+                            <a href='#contact'>Enviar mensagem</a>
                         </li>
                         <li>
                             <a class='btn primary convert-btn' href="">
-                                <span>Fale comigo</span>
+                                <span>+55 (12) 98102-1517</span>
                                 <i class="fa-brands fa-whatsapp"></i>
                             </a>
                         </li>
@@ -72,13 +74,13 @@ initapp=()=>{
           </a>
        </div>
        <div class='social'>
-          <a class='' href='https://www.instagram.com/harmonydigitalflow/'  target="_blank">    
+          <a class='' href='https://www.instagram.com/thais.devfrontend/'  target="_blank">    
           <i class="fa-brands fa-instagram"></i>
           </a>
-          <a class='' href="https://www.linkedin.com/in/harmony-digital/" target="_blank">
+          <a class='' href="https://www.linkedin.com/in/thais-mariano-712340216/" target="_blank">
           <i class="fa-brands fa-linkedin-in"></i>
           </a>d
-          <a class='' href="https://github.com/harmonydigital" target="_blank" > 
+          <a class='' href="https://github.com/thaisdevfront" target="_blank" > 
           <i class="fa-brands fa-github"></i>
           </a>
        </div>
