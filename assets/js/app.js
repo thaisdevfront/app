@@ -414,7 +414,7 @@ initapp=()=>{
           </div>
        </div>
     </div>
-    </div>
+   </div>
  </main>
       
     `
