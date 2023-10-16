@@ -401,6 +401,7 @@ initapp=()=>{
                 <!-- Swipesr -->
                 <div class="swiper mySwiper">
                    <div class="swiper-wrapper">
+                      <div class="swiper-slide"><img class='logo' src='assets/img/produtos/socialmedia/cacino_mentoria.png'></div>
                       <div class="swiper-slide"><img class='logo' src='assets/img/produtos/socialmedia/media0.png'></div>
                       <div class="swiper-slide"><img class='logo' src='assets/img/produtos/socialmedia/media.png'></div>
                       <div class="swiper-slide"><img class='logo' src='assets/img/produtos/socialmedia/media1.png'></div>
