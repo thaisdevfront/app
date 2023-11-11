@@ -124,7 +124,27 @@ initapp=()=>{
              <div class='slide' id='gallery'>
                 <div class="swiper tecnologia">
                    <div class="swiper-wrapper">
-                   
+                   <div class="swiper-slide">
+                   <div class='overlaygallery'>
+                           <div class='text-content'>
+                           <span>
+                           <i class="fa-regular fa-heart"></i>
+                           </span>
+                           <div>
+                               <h4>Loja Woocommerce Magic Journey</h4>
+                               <p>Loja de roupas masculinas e acessórios.</p>
+                               <a class='get-site' target='_blank' 
+                                   href='https://magicjourney.rf.gd'>visite este site
+                               <i class="fa-solid fa-arrow-right"></i>
+                               </a>
+                           </div>
+                           <span>
+                           <i class="fa-solid fa-chevron-down"></i>
+                           </span>
+                           </div>
+                       </div>
+                   <img class='logo' src='assets/img/prianti.png'>
+                </div>
                    <div class="swiper-slide">
                    <div class='overlaygallery'>
                            <div class='text-content'>
